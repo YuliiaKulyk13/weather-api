@@ -67,7 +67,7 @@ async function fetchDataWeather(latitude, longitude) {
 }
 
 function displayWeather() {
-  iconElement.innerHTML = `<img src="http://openweathermap.org/img/wn/${weather.icon}@2x.png"/>`;
+  iconElement.innerHTML = `<img src=" http://openweathermap.org/img/wn/${weather.icon}@2x.png"/>`;
   console.log(iconElement.innerHTML);
   tempElement.innerHTML = `${weather.temperature.value}`;
   descElement.innerHTML = weather.description;
